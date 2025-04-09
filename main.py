@@ -1,7 +1,6 @@
 import numpy as np
-dt=np.dtype([("n1","i1")])
-toend=np.empty((4,2),dtype=dt)
-print(toend)
-print()
-toend=np.zeros((13,13),dtype=dt,)
-print(toend)
+dt=np.dtype([('n1','i4'),('n2','i4')])
+test=[[1,2,3,4],[2,3,4,5],[3,4,5,6]]
+print(test)
+test1=np.asarray(test,dtype=dt)
+print(test1)
