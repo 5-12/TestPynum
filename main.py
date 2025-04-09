@@ -1,6 +1,6 @@
 import numpy as np
-dt=np.dtype([('n1','i4'),('n2','i4')])
-test=[[1,2,3,4],[2,3,4,5],[3,4,5,6]]
-print(test)
-test1=np.asarray(test,dtype=dt)
-print(test1)
+end=np.arange(0,10,1,"i4")
+print(end)
+print()
+end1=np.linspace(0,100,100,True,True,None)
+print(end1)
