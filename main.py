@@ -1,6 +1,3 @@
-import numpy as np
-end=np.arange(0,10,1,"i4")
-print(end)
-print()
-end1=np.linspace(0,100,100,True,True,None)
-print(end1)
+import torch
+from torch import nn as Tnn
+print("hi-torch")
