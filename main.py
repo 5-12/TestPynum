@@ -1,3 +1,12 @@
-import torch
-from torch import nn as Tnn
-print("hi-torch")
+import torch 
+test=torch.tensor([[1,2],[2,3]])
+print(test)
+print()
+test1=torch.zeros(3,3)
+print(test1)
+print()
+test2=torch.rand(3,3,4)
+print(test2)
+print()
+test3=torch.eye(5)
+print(test3)
